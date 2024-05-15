@@ -1,7 +1,10 @@
 import Search from "@/components/search/Search";
+import connectMongo from "@/db/connectMongo";
 
 
-export default function Home() {
+export default async function Home() {
+
+
   return (
     <section className="bg-[#F6F3E9] h-screen max-h-screen relative grid place-items-center bg-[url('/hero-bg.jpg')] bg-cover bg-no-repeat bg-center">
       <div className="container items-center pb-12 ">
