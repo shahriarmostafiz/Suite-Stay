@@ -22,3 +22,6 @@ const bookingSchema = new Schema({
 
 
 export const bookingModel = mongoose.models.bookings ?? mongoose.model("bookings", bookingSchema);
+
+
+
